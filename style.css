@@ -1,99 +1,127 @@
 @font-face {
-    font-family: Inter;
-    src: url(https://fonts.google.com/specimen/Inter);
+  font-family: Inter;
+  src: url(https://fonts.google.com/specimen/Inter);
 }
 @font-face {
-    font-family: Inter-ExtraBold;
-    src: url(./fonts/static/Inter-ExtraBold.ttf);
+  font-family: Inter-ExtraBold;
+  src: url(./fonts/static/Inter-ExtraBold.ttf);
 }
 
 * {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 .first,
 .second,
 .third,
 .fourth {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq,
 footer {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .top-content {
-    background-image: url('https://sriramkg.github.io/assignment_1/IN-en-20240408-popsignuptwoweeks-perspective_alpha_website_small.jpg');
-    padding: 20px 40px;
-    position: relative;
-    text-align: center;
-    background-size: contain;
-    height: 650px;
+  background-image: url("https://sriramkg.github.io/assignment_1/IN-en-20240408-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  padding: 20px 40px;
+  position: relative;
+  text-align: center;
+  background-size: contain;
+  height: 650px;
 }
-.top-content1{
+.top-content1 {
+  background: linear-gradient(to right, #000000de, #0000009c);
+}
+.login-container {
+  background-image: url("https://sriramkg.github.io/assignment_1/IN-en-20240408-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  padding: 100px 400px;
+  position: relative;
+  text-align: center;
+  background-size: contain;
+}
+
+.login-container1 {
     background: linear-gradient(to right, #000000de, #0000009c);
 }
-.login-container{
-    background-image: url('https://sriramkg.github.io/assignment_1/IN-en-20240408-popsignuptwoweeks-perspective_alpha_website_small.jpg');
-    padding: 100px 400px;
-    position: relative;
-    text-align: center;
-    background-size: contain;
-}
-.signin-conatiner {
-    /*background: linear-gradient(to right, #000000de, #0000009c);*/    
-}
+
 h1 {
-    font-family: Inter-ExtraBold;
-    font-weight: 900;
-    font-size: 3rem;
+  font-family: Inter-ExtraBold;
+  font-weight: 900;
+  font-size: 3rem;
 }
 p {
-    font-family: Inter;
-    font-size: 1.5rem;
-    font-weight: 400;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 main {
-    /*background: linear-gradient(to right, #0000009c, #0000009c);*/
-    height: 300px;
-    margin: 150px;
-    padding: 50px;
+  /*background: linear-gradient(to right, #0000009c, #0000009c);*/
+  height: 300px;
+  margin: 50px;
+  padding: 50px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-between;
 }
 
 #btn1 {
-    background-color: red;
+  background-color: red;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-radius: 0.1875rem;
+  border-color: rgba(0, 0, 0, 0);
+  margin: 30px;
+  font-family: Inter;
+  font-size: medium;
+  font-weight: 300;
 }
 
 #lang-select {
-    background-color: black;
+  background-color: black;
+  background-clip: padding-box;
+  background: transparent;
+}
+
+.footer-container {
+    background: linear-gradient(to right, #000000de, #0000009c);
 }
 
 #footerpara {
-    text-align: left;
+  text-align: left;
 }
 
 details {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-details>summary {
-    list-style-type: square;
-    list-style-position: inside;
+details > summary {
+  list-style-type: square;
+  list-style-position: inside;
 }
 
 #brand svg {
-    width: 180px;
-    height: auto;
+  width: 180px;
+  height: auto;
+  margin: 30px;
+  padding: 20px;
+}
+
+.list1,
+.list2,
+.list3,
+.list4, .list5{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  gap: 100;
 }
